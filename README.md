@@ -1,1 +1,2 @@
-# Nhom_6
+# Tìm hiểu Apache Hive và viết ứng dụng demo
+
