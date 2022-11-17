@@ -1,0 +1,9 @@
+1,Anh,Phan,ducanh@gmail.com,012345,0,1,1
+2,Huy,Ngo,quanghuy@gmail.com,023456,1,1,1
+3,Chi,Bui,quocchi@gmail.com,034567,1,1,1
+4,Toan,Nguyen,hoangtoan@gmail.com,045678,0,2,1
+5,Khang,Vo,hongkhang@gmail.com,056789,0,2,1
+6,Khang,Nguyen,thienkhang@gmail.com,067891,1,2,1
+7,Kiet,Tran,vankiet@gmail.com,078912,1,2,1
+8,Thanh,Nguyen,congthanh@gmail.com,089123,1,3,1
+9,Thien,Nguyen,dinhthien@gmail.com,091234,1,3,1
