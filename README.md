@@ -4,6 +4,13 @@
 * Tìm hiểu Apache Hive 
 * Xây dựng data warehouse đơn giản
 
+## Công nghệ sử dụng
+* Apache Hadoop
+* Apache Hive
+* AWS EMR
+* AWS EC2
+* AWS S3
+
 ## Các thành viên trong nhóm
 * Võ Hồng Khang - 20110281 - 20110281@student.hcmute.edu.vn
 * Phan Văn Đức Anh - 20110609 - 20110609@student.hcmute.edu.vn
