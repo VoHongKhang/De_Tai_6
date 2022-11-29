@@ -25,8 +25,8 @@
 * Đánh giá chi phí sử dụng trên AWS
 
 ## Link tài liệu tham khảo: 
-https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html
-https://www.youtube.com/watch?v=u6NSowmu7Dc
+* https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html
+* https://www.youtube.com/watch?v=u6NSowmu7Dc
 
 ## Các thành viên trong nhóm
 * Võ Hồng Khang - 20110281 - 20110281@student.hcmute.edu.vn
