@@ -24,6 +24,10 @@
 * Thực hiện thêm nhiều các câu truy vấn.
 * Đánh giá chi phí sử dụng trên AWS
 
+## Link tài liệu tham khảo: 
+https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html
+https://www.youtube.com/watch?v=u6NSowmu7Dc
+
 ## Các thành viên trong nhóm
 * Võ Hồng Khang - 20110281 - 20110281@student.hcmute.edu.vn
 * Phan Văn Đức Anh - 20110609 - 20110609@student.hcmute.edu.vn
