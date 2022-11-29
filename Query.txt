@@ -1,0 +1,39 @@
+
+-- Sản phẩm bán chạy nhất
+select a.field_1, a.field_2, count(b.field_4) from products a join order_items b on (a.field_1=b.field_3) group by a.field_1, a.field_2 
+
+
+-- Đếm số lượng đơn hàng và tổng tiền bán ra của từng nhân viên
+select a.staff_id, b.first_name, b.last_name, count(a.order_id), sum(c.list_price)
+from orders a join staffs b on (a.staff_id=b.staff_id) join order_items c on (a.order_id=c.order_id)
+group by a.staff_id, b.first_name, b.last_name
+
+-- Những khách hàng đã đặt hàng
+SELECT customers.customer_id,customers.first_name,customers.last_name,orders.order_date from customers,orders where customers.customer_id=orders.customer_id
+
+
+-- Xem số lượng sản phẩm trong kho
+select products.product_id,products.product_name,stocks.quantity  from products, stocks where products.product_id=stocks.product_id;
+
+
+
+-- Tổng số lượng đơn hàng của mỗi nhân viên
+
+SELECT staffs.staff_id,staffs.first_name,staffs.last_name,count(orders.order_id) as Soluong 
+FROM staffs, orders where staffs.staff_id=orders.staff_id 
+GROUP BY staffs.staff_id,staffs.first_name,staffs.last_name 
+ORDER BY staffs.staff_id;
+
+
+-- Tổng số lượng đơn hàng của mỗi nhân viên trong tháng 1 năm 2016 theo thứ tự số lượng giảm dần
+
+SELECT staffs.staff_id,staffs.first_name,staffs.last_name,count(orders.order_id) as Soluong 
+FROM staffs, orders where staffs.staff_id=orders.staff_id and orders.order_date>'20160101' and orders.order_date<'20160201' 
+GROUP BY staffs.staff_id,staffs.first_name,staffs.last_name 
+ORDER BY Soluong DESC;
+
+
+-- Xem thông tin chi tiết của những sản phẩm có giá lớn hơn 500$
+SELECT categories.category_id,categories.category_name,products.product_name,products.list_price,brands.brand_name
+FROM products, categories, brands
+WHERE products.product_id=categories.category_id and products.product_id=brands.brand_id and products.list_price > 500;
