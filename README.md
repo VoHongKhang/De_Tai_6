@@ -17,6 +17,7 @@
 * AWS EC2
 * AWS S3
 * AWS DynamoDB
+* Beeline Hive Client
 
 ## Những gì nhóm đã làm được
 * Tìm hiểu về cơ sở lý thuyết của hive
