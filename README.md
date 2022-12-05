@@ -39,6 +39,7 @@
 * Đánh giá chi phí sử dụng trên AWS
 
 ## Link tài liệu tham khảo: 
+* Kiến thức từ môn học Điện toán đám mây của GV Huỳnh Xuân Phụng
 * https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html
 * https://www.youtube.com/watch?v=u6NSowmu7Dc
 * https://www.youtube.com/watch?v=Se10c3z-zjY
