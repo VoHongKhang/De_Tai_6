@@ -16,12 +16,15 @@
 * AWS EMR
 * AWS EC2
 * AWS S3
+* AWS DynamoDB
 
 ## Những gì nhóm đã làm được
 * Tìm hiểu về cơ sở lý thuyết của hive
 * Cài đặt và chạy được cluster trên EMR
 * Sử dụng HUE để tạo database và thực hiện các truy vấn HiveQL trên đó
 * Kết nối giữa máy host với các cluster trên EMR để thực hiện việc truy vấn từ máy host
+* Truy vấn với bee hive client để tạo file csv trên S3
+* Sử dụng hive để tạo các bảng map tới các bảng của DynamoDB và nhập dữ liệu vào các bảng đó
 
 ## Mục tiêu và hướng phát triển 
 * Tiếp tục hoàn thiện các chức năng còn thiếu.
