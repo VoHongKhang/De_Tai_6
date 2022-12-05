@@ -26,6 +26,10 @@
 * Truy vấn với bee hive client để tạo file csv trên S3
 * Sử dụng hive để tạo các bảng map tới các bảng của DynamoDB và nhập dữ liệu vào các bảng đó
 
+## Video báo cáo của nhóm
+* Lần 1: https://www.youtube.com/watch?v=muaYIeV_Sfc&t=1273s
+* Lần 2: https://www.youtube.com/watch?v=NaEkKoJRNwQ&t=593s
+
 ## Mục tiêu và hướng phát triển 
 * Tiếp tục hoàn thiện các chức năng còn thiếu.
 * Xây dựng và quản lý data warehouse lớn hơn.
