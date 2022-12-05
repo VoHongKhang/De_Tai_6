@@ -36,6 +36,7 @@
 ## Link tài liệu tham khảo: 
 * https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html
 * https://www.youtube.com/watch?v=u6NSowmu7Dc
-
+* https://www.youtube.com/watch?v=Se10c3z-zjY
+* https://www.youtube.com/watch?v=il3OGekF0eA
 
 
